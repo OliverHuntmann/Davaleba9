@@ -1,0 +1,104 @@
+.container{
+    max-width: 1566px;
+    width: 100%;
+    max-height: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+ul{
+    display: flex;
+    gap: 53px;
+    margin-left: 300px;
+}
+/* section{
+    background-image: url("..photos/gonzalo-poblete-C1tnzdAmPE8-unsplash.png");
+    ამან არ იმუშავა არ ვიცი რატომ ვეთითავე და არ გამომივიდა ხოდა img ით შემოვიტან რა ბოდიში :(
+} */
+.mainph{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    
+}
+.card{
+    width: 27%;
+    height: 463px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 400px;
+    /* border: 1px solid #707070; */
+    box-shadow:  0 4px 10px #707070
+
+}
+.img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 200px;
+}
+.divtxt{
+    transform: translate(-75px, -190px);
+    font-size: 25px;
+}
+.h3_card1{
+    position: absolute;
+    bottom: -300px;
+    right: 1085px;
+    font-size: 30px;
+}
+.h3_card4{
+    position: absolute;
+    bottom: -1200px;
+    right: 1085px;
+    font-size: 30px;
+}
+a{
+    transform: translate(150px, -35px);
+    font-size: 24px;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #2E2E2E;
+}
+.logo{
+    transform: translateX(20px);
+}
+.contacts{
+    transform: translate(500px, -80px);
+    width: 124px;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+.address{
+    transform: translate(900px, -125px);
+    width: 240px;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+.social{
+    transform: translate(1350px, -160px);
+    padding-left: 20px;
+    width: 150px;
+}
+.phmain{
+    width: 1px;
+    height: 1px;
+}

@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+    header {
+      padding: 0 auto;
+    }
+    .mainph{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    .searchbar{
+        padding: 0 auto;
+        border: 5px solid red;
+    }
+    .card{
+        width: 300px;
+    }
+    .divtxt{
+        transform: translate(-35px, -185px);
+    }
+    a{
+        transform: translate(110px, -20px);
+    }
+    .social{
+        transform: translate(160px, 60px);
+    }
+    .logo{
+        display: none;
+    }
+    .address{
+        transform: translate(105px, -40px)
+    }
+    .contacts{
+        transform: translate(160px, 70px)
+    }
+    footer{
+        height: 200px;
+    }
+    .phmain{
+
+        width: 100%;
+        height: 100%;
+    }
+    .h3_card1{
+        position: relative;
+        left: 0px;
+        bottom: 150px;
+        text-align: center;
+
+    }
+    .h3_card4{
+        position: relative;
+        left: 0px;
+        bottom: 200px;
+        text-align: center;
+    }
+} 
